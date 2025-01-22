@@ -45,7 +45,6 @@ func main() {
 		if order != "asc" && order != "desc" {
 			order = "asc" // Default sort order
 		}
-		fmt.Println("sort:", sort, "order:", order)
 
 		// Calculate the OFFSET
 		offset := (page - 1) * limit
